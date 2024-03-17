@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="header.css">
+    <script src="https://kit.fontawesome.com/012d0abd64.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="eaxmple.jpg">
+    <link rel="stylesheet" href="about.css">
+    <title>About Construction Monitoring</title>
+    <style>
+        *{
+            font-family: 'Nunito Sans', sans-serif;
+        }
+        .contact {
+            background: var(--gradient-3);
+        }
+
+        .contact .heading {
+            color: #fff;
+        }
+
+        .contact .row {
+            display: flex;
+            flex-wrap: wrap;
+            border: .1rem solid rgba(0, 0, 0, .2);
+            box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+        }
+
+        .contact .row form {
+            flex: 1 1 40rem;
+            padding: 2rem;
+        }
+
+        .contact .row .map {
+            flex: 1 1 40rem;
+            width: 100%;
+        }
+
+        /*.contact .row form .inputBox{
+    position: relative;
+}*/
+
+        .contact .row form .inputBox input::placeholder {
+            font-weight: 500;
+            font-size: 10PX;
+        }
+
+        .contact .row form .inputBox textarea::placeholder {
+            font-weight: 500;
+            font-size: 10PX;
+        }
+
+        .contact .row form .inputBox input,
+        .contact .row form .inputBox textarea {
+            width: 100%;
+            margin: 1.5rem 0;
+            padding: .7rem 1rem;
+            font-size: 1.7rem;
+            color: #666;
+            border: .1rem solid rgba(0, 0, 0, .2);
+            text-transform: none;
+        }
+
+        .contact .row form .inputBox textarea {
+            height: 15rem;
+            resize: none;
+        }
+
+        .contact .row form .inputBox label {
+            font-size: 1.5rem;
+            position: absolute;
+            top: 2.4rem;
+            left: 1rem;
+            color: #444;
+        }
+
+        .contact .row form .inputBox input:focus~label,
+        .contact .row form .inputBox textarea:focus~label,
+        .contact .row form .inputBox input:valid~label,
+        .contact .row form .inputBox textarea:valid~label {
+            top: -.7rem;
+            left: 0;
+            color: var(--orange);
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1 class="logo"><span>Construction</span> Monitoring Dashboard</h1>
+        <input type="checkbox" id="menu-bar">
+        <label for="menu-bar">Menu</label>
+        <div class="navbar">
+            <ul>
+                <li><a href="construction-monitoring-site.html">Home</a></li>
+                <li><a href="">Project <i class="fa-solid fa-caret-down"></i></a>
+                    <ul>
+                        <li><a href="project-overview.html">Project Overview</a></li>
+                        <li><a href="">Features <i class="fa-solid fa-caret-right"></i></a>
+
+                            <ul>
+                                <li><a href="dashboard-index.html">Dashboards<br><span class="link-subtext">Collect and
+                                            view real-time data on your work for key insights</span></a></li>
+                                <li><a href="">Reports<br><span class="link-subtext">Generate in-depth, easy-to-read
+                                            reports to
+                                            share progress</span></a></li>
+                                <li><a href="list.html">Task lists<br><span class="link-subtext">Organize and manage tasks to
+                                            boost team
+                                            productivity</span></a></li>
+                            </ul>
+
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="aboutSection">
+        <div class="container">
+            <div class="content-section">
+                <div class="title">
+                    About Us
+                </div>
+                <div class="content">
+                    <div class="content-text">
+                        <h3>
+                            <span>Construction</span> Monitoring Dashboard
+                        </h3>
+                        <p>
+                            Construction Monitoring is dedicated to providing real-time insights into construction
+                            projects.
+                            Our
+                            innovative solutions help construction teams track progress, manage issues, and ensure
+                            projects
+                            are
+                            completed successfully.
+                        </p>
+                        <p>
+                            With our advanced tools and experienced team, we empower construction professionals to make
+                            data-driven
+                            decisions, optimize workflows, and enhance overall project efficiency.
+                        </p>
+                    </div>
+                    <div class="content-image">
+                        <img decoding="async" loading="lazy" src="WhatsApp Image 2023-10-14 at 10.34.25_0aaa8b71.jpg"
+                            alt="Screenshot of a Project Dashboard in Project Management Software" height="300" />
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <section class="contact" id="contact">
+
+                        <h1 class="heading">contact us</h1>
+
+                        <div class="row">
+
+                            <form action="" method="post">
+
+                                <div class="inputBox">
+                                    <input type="text" name="name" placeholder="Enter Your Name" required>
+                                    <!-- <label>name</label> -->
+                                </div>
+                                <div class="inputBox">
+                                    <input type="email" name="email" placeholder="Enter Your Email ID" required>
+                                    <!-- <label>email</label> -->
+                                </div>
+                                <div class="inputBox">
+                                    <input type="number" name="phone" placeholder="Enter Your Mobile Number" required>
+                                    <!-- <label>number</label> -->
+                                </div>
+                                <div class="inputBox">
+                                    <textarea required name="feedback" cols="30" rows="10"
+                                        placeholder="Give Your Feedback Here"></textarea>
+                                    <!-- <label>feedback</label> -->
+                                </div>
+
+                                <button class="btn">send message</button>
+                                <!-- <input type="submit" class="btn1" value="send message"> -->
+                            </form>
+                            <!-- <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d235526.9092447028!2d75.72376080945176!3d22.724228431310554!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3962fcad1b410ddb%3A0x96ec4da356240f4!2sIndore%2C%20Madhya%20Pradesh!5e0!3m2!1sen!2sin!4v1666557212996!5m2!1sen!2sin" allowfullscreen="" loading="lazy"></iframe> -->
+                        </div>
+
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <footer>
+        <p>&copy; 2023 <span>Construction</span> Monitoring Dashboard. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
